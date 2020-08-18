@@ -1,22 +1,209 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Chaudhari | Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Service</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Works</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I am<br /><span>Vaibhav Chaudhari</span></h2>
+            <h3>I'm a Full Stack Web Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Full Stack Web Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam obcaecati ab sit quas vel qui
+                    in eum blanditiis, porro libero eius provident laborum mollitia est, temporibus repudiandae
+                    consectetur perferendis<br /><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                    unde dolorum voluptate reprehenderit saepe nesciunt consequatur voluptatum earum modi laboriosam
+                    cumque quasi quod id numquam accusamus, commodi impedit amet adipisci.</p>
+            </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+            <div class="w50">
+                <img src="images/img1.jpg" class="img" />
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="serviceBx">
+                <img src="images/icon1.png" alt="icon1">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
+                    in distinctio harum quod sunt.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="images/icon2.png" alt="icon1">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
+                    in distinctio harum quod sunt.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="images/icon3.png" alt="icon1">
+                <h2>Android App</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
+                    in distinctio harum quod sunt.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="images/icon4.png" alt="icon1">
+                <h2>Photography</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
+                    in distinctio harum quod sunt.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="images/icon5.png" alt="icon1">
+                <h2>Content Writing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
+                    in distinctio harum quod sunt.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="images/icon6.png" alt="icon1">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
+                    in distinctio harum quod sunt.</p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="images/product1.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/product2.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/product3.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/product4.jpg" alt="">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio quos nobis? Error, nam
+                    aperiam? Rem fugit excepturi alias eveniet molestias saepe repellat nihil ab dolor eius, aliquam
+                    dolorum enim?</p>
+                <h3>Someone Famous<br /><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio quos nobis? Error, nam
+                    aperiam? Rem fugit excepturi alias eveniet molestias saepe repellat nihil ab dolor eius, aliquam
+                    dolorum enim?</p>
+                <h3>Someone Famous<br /><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Content Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>ABC Road,<br />PQR, XYZ,<br />12345</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>1234567890</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>vaibhavchaudhari8625@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name" />
+                    <input type="email" name="" placeholder="Email" />
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2020 CyberNerd. All Right Reserved.</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header')
+            header.classList.toggle('sticky', window.scrollY > 0)
+        })
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active')
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+
 </html>
