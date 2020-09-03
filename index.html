@@ -7,7 +7,8 @@
     <title>Vaibhav Chaudhari | Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 </head>
 
 <body>
@@ -58,45 +59,53 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="content">
-                <div class="serviceBx">
-                    <img src="images/icon1.png" alt="icon1">
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente
-                        nam
-                        in distinctio harum quod sunt.</p>
+                <div class="owl-carousel owl-theme">
+                    <div class="serviceBx">
+                        <img src="images/icon1.png" alt="icon1">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a
+                            sapiente
+                            nam
+                            in distinctio harum quod sunt.</p>
+                    </div>
+                    <div class="serviceBx">
+                        <img src="images/icon2.png" alt="icon1">
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a
+                            sapiente
+                            nam
+                            in distinctio harum quod sunt.</p>
+                    </div>
+                    <div class="serviceBx">
+                        <img src="images/icon3.png" alt="icon1">
+                        <h2>Android App</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a
+                            sapiente
+                            nam
+                            in distinctio harum quod sunt.</p>
+                    </div>
+                    <div class="serviceBx">
+                        <img src="images/icon4.png" alt="icon1">
+                        <h2>Photography</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a
+                            sapiente nam
+                            in distinctio harum quod sunt.</p>
+                    </div>
+                    <div class="serviceBx">
+                        <img src="images/icon5.png" alt="icon1">
+                        <h2>Content Writing</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a
+                            sapiente nam
+                            in distinctio harum quod sunt.</p>
+                    </div>
+                    <div class="serviceBx">
+                        <img src="images/icon6.png" alt="icon1">
+                        <h2>Video Editing</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a
+                            sapiente nam
+                            in distinctio harum quod sunt.</p>
+                    </div>
                 </div>
-                <div class="serviceBx">
-                    <img src="images/icon2.png" alt="icon1">
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente
-                        nam
-                        in distinctio harum quod sunt.</p>
-                </div>
-                <div class="serviceBx">
-                    <img src="images/icon3.png" alt="icon1">
-                    <h2>Android App</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente
-                        nam
-                        in distinctio harum quod sunt.</p>
-                </div>
-                <!-- <div class="serviceBx">
-                <img src="images/icon4.png" alt="icon1">
-                <h2>Photography</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
-                    in distinctio harum quod sunt.</p>
-            </div>
-            <div class="serviceBx">
-                <img src="images/icon5.png" alt="icon1">
-                <h2>Content Writing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
-                    in distinctio harum quod sunt.</p>
-            </div>
-            <div class="serviceBx">
-                <img src="images/icon6.png" alt="icon1">
-                <h2>Video Editing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis mollitia officia a sapiente nam
-                    in distinctio harum quod sunt.</p>
-            </div> -->
             </div>
         </section>
         <section class="work" id="work">
@@ -105,18 +114,20 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="content">
-                <div class="workBx">
-                    <img src="images/product1.jpg" alt="">
+                <div class="owl-carousel owl-theme">
+                    <div class="workBx">
+                        <img src="images/product1.jpg" alt="">
+                    </div>
+                    <div class="workBx">
+                        <img src="images/product2.jpg" alt="">
+                    </div>
+                    <div class="workBx">
+                        <img src="images/product3.jpg" alt="">
+                    </div>
+                    <div class="workBx">
+                        <img src="images/product4.jpg" alt="">
+                    </div>
                 </div>
-                <div class="workBx">
-                    <img src="images/product2.jpg" alt="">
-                </div>
-                <!-- <div class="workBx">
-                <img src="images/product3.jpg" alt="">
-            </div>
-            <div class="workBx">
-                <img src="images/product4.jpg" alt="">
-            </div> -->
             </div>
             <div class="heading">
                 <a href="#" class="btn">View More</a>
@@ -224,58 +235,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
-    <script type="text/javascript">
-        window.addEventListener('scroll', function () {
-            var header = document.querySelector('header')
-            header.classList.toggle('sticky', window.scrollY > 0)
-        })
-        function toggleMenu() {
-            var menuToggle = document.querySelector('.toggle');
-            var menu = document.querySelector('.menu');
-            menuToggle.classList.toggle('active')
-            menu.classList.toggle('active')
-        }
-    </script>
-    <script>
-        gsap.registerPlugin(ScrollTrigger);
-
-        let t1 = gsap.timeline({
-            // yes, we can add it to an entire timeline!
-            scrollTrigger: {
-                trigger: "#scroll_section",
-                pin: true,   // pin the trigger element while active
-                start: "top top", // when the top of the trigger hits the top of the viewport
-                end: "+=2000", // end after scrolling 500px beyond the start
-                scrub: true, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-            }
-        });
-
-        // console.log(t1)
-
-        t1.from(".services", { xPercent: -100 })
-            .from(".work", { xPercent: 100 })
-            // .from(".testimonial", { yPercent: -100 })
-            .from(".contact", { yPercent: 100 })
-    </script>
-    <script>
-        var modal = document.getElementById("myModal");
-        var btn = document.getElementById("myBtn");
-        var span = document.getElementsByClassName("close")[0];
-
-        btn.onclick = function () {
-            modal.style.display = "block";
-        }
-
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
