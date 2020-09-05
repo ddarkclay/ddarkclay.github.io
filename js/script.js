@@ -26,7 +26,7 @@ let t1 = gsap.timeline({
 });
 
 t1.from(".services", { xPercent: -100 })
-    .from(".work", { xPercent: 100 })
+    .from(".projects", { xPercent: 100 })
     // .from(".testimonial", { yPercent: -100 })
     .from(".contact", { yPercent: 100 })
 
@@ -52,5 +52,31 @@ window.onclick = function (event) {
 
 // For owl carousel
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel();
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        // margin: 10,
+        // autoplay: true,
+        // autoplayTimeout:2000,
+        // autoplayHoverPause:true,
+        // items: 3,
+        dots: true,
+        nav: true,
+        // center: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                // nav: true
+            },
+            600: {
+                items: 2,
+                // nav: true
+            },
+            1000: {
+                items: 3,
+                // nav: true,
+                // loop: true
+            }
+        }
+    });
 });
