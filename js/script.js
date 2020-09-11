@@ -52,7 +52,35 @@ window.onclick = function (event) {
 
 // For owl carousel
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    $('.services-carousel').owlCarousel({
+        loop: true,
+        // margin: 55,
+        // autoplay: true,
+        // autoplayTimeout:2000,
+        // autoplayHoverPause:true,
+        // items: 3,
+        dots: true,
+        nav: true,
+        // center: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                // nav: true
+            },
+            600: {
+                items: 2,
+                // nav: true
+            },
+            1000: {
+                items: 3,
+                // nav: true,
+                // loop: true
+            }
+        }
+    });
+    
+    $('.projects-carousel').owlCarousel({
         loop: true,
         // margin: 10,
         // autoplay: true,
@@ -73,7 +101,7 @@ $(document).ready(function () {
                 // nav: true
             },
             1000: {
-                items: 3,
+                items: 2,
                 // nav: true,
                 // loop: true
             }
