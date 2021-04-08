@@ -32,9 +32,10 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url(../images/newbanner.jpg);
+/*     background: url(../images/newbanner.jpg);
     background-size: cover;
-    background-position: right;
+    background-position: right; */
+    background: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
